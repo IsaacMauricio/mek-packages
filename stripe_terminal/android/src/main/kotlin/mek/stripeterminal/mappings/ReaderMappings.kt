@@ -77,7 +77,6 @@ fun DeviceType.toApi(): DeviceTypeApi? {
         DeviceType.STRIPE_S700 -> DeviceTypeApi.STRIPE_S700
         DeviceType.STRIPE_S700_DEVKIT -> DeviceTypeApi.STRIPE_S700_DEVKIT
         DeviceType.STRIPE_S710 -> DeviceTypeApi.STRIPE_S710
-        DeviceType.STRIPE_S710_DEVKIT -> DeviceTypeApi.STRIPE_S710_DEVKIT
         DeviceType.UNKNOWN -> null
     }
 }
